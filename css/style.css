@@ -1,0 +1,170 @@
+:root {
+    --dark-color: #02200c;
+    --medium-color: #5d6161;
+    --ligth-color: #dad6d6; 
+    --dark-transparent: #293c2bcb;
+}
+@font-face {
+    font-family: myRoboto;
+    src: url('../fonts/Roboto-Regular.ttf');
+}
+* {
+    margin: 0; 
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color: var(--ligth-color);
+    font-family: myRoboto;
+    text-align: center;
+}
+.intro-image {
+    background-attachment: fixed;
+    background-image: url('../images/bike.jpg');
+    background-size: cover;
+    background-position: bottom;
+    height: 600px;
+    position: relative;
+}
+.intro-image__link {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-transform: uppercase;
+}
+.intro-image__link a {
+    border: 2px solid var(--dark-color);
+    color: var(--ligth-color);
+    text-transform: uppercase;
+    display: inline-block;
+    background-color: var(--dark-transparent);
+    font-size: 3rem;
+    text-decoration: none;
+    transition: all 0.5s ease-in-out;
+}
+.intro-image__link a:hover {
+    transform: scale(1.2);
+}
+.intro-text {
+    display: flex;
+    background-color: var(--medium-color);
+    color: var(--ligth-color);
+    height: 250px;
+    padding: 0 15rem;
+    /*justify-content: center;*/
+    align-items: center;
+}
+.intro-text h3 {
+    font-size: 2rem;
+    text-transform: uppercase;
+    margin-bottom: 1rem;
+}
+.quality-image {
+    background-attachment: fixed;
+    background-image: url('../images/bike2.jpg');
+    height: 600px;
+    background-size: cover;
+    background-position: bottom;
+    position: relative;
+}
+.quality-image__link {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-transform: uppercase;
+}
+.quality-image__link a {
+    border: 2px solid var(--dark-color);
+    color: var(--ligth-color);
+    text-transform: uppercase;
+    display: inline-block;
+    background-color: var(--dark-transparent);
+    font-size: 3rem;
+    text-decoration: none;
+    transition: all 0.5s ease-in-out;
+}
+.quality-image__link a:hover {
+    transform: scale(1.2);
+}
+.quality-text {
+    display: flex;
+    background-color: var(--medium-color);
+    color: var(--ligth-color);
+    height: 250px;
+    padding: 0 15rem;
+    /*justify-content: center;*/
+    align-items: center;
+}
+.quality-text h3 {
+    font-size: 2rem;
+    text-transform: uppercase;
+    margin-bottom: 1rem;
+}
+.origin-image {
+    background-attachment: fixed;
+    background-image: url('../images/bike3.jpg');
+    height: 600px;
+    background-size: cover;
+    background-position: bottom;
+    position: relative;
+}
+.origin-image__link {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-transform: uppercase;
+}
+.origin-image__link a {
+    border: 2px solid var(--dark-color);
+    color: var(--ligth-color);
+    text-transform: uppercase;
+    display: inline-block;
+    background-color: var(--dark-transparent);
+    font-size: 3rem;
+    text-decoration: none;
+    transition: all 0.5s ease-in-out;
+}
+.origin-image__link a:hover {
+    transform: scale(1.2);
+}
+.origin-text {
+    display: flex;
+    background-color: var(--medium-color);
+    color: var(--ligth-color);
+    height: 250px;
+    padding: 0 15rem;
+    /*justify-content: center;*/
+    align-items: center;
+}
+.origin-text h3 {
+    font-size: 2rem;
+    text-transform: uppercase;
+    margin-bottom: 1rem;
+}
+.footer {
+    height: 250px;
+    background-color: var(--ligth-color-color);
+    color: var(--dark-color);
+    font-size: 1.5rem;
+}
+.contact {
+    padding-top: 2rem;
+}
+.contact ul li {
+    display: inline-block;
+    margin: 1rem;
+}
+.contact ul li a {
+    text-decoration: none;
+    color: var(--dark-color);
+    transition: all 0.2s ease-in-out;
+}
+.contact ul li a:hover {
+    color: rgba(160, 51, 51, 0.627);
+}
+.footer p {
+    margin-top: 3rem;
+}
